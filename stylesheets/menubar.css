@@ -1,4 +1,30 @@
 .menubar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 50px;
+  padding: 0 20px;
   background: grey;
+}
+
+.postsPage .menubar{
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+}
+
+.logo{
+  display: block;
+  width: 180px;
+  height: 16px;
+  background-image: url(../images/logo.svg);
+  background-repeat: no-repeat;
+}
+
+.about{
+color: rgba(0,0,0,.2);
+}
+
+.about:hover {
+
 }

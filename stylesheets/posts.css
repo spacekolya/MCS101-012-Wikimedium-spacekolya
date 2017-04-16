@@ -1,0 +1,21 @@
+.posts{
+  width: 740px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.posts a {
+  display: block;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.05);
+  b
+}
+
+.posts figure{
+  width: 700px;
+  height: 200px;
+  background-image: url(../images/narkomfin.jpg);
+  background-size: cover;
+  background-position: center;
+}

@@ -6,9 +6,12 @@ body {
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 font-family: 'PT Sans', sans-serif;
+}
 
-background-image: url(../images/dc-online-media-mockup-sidebar.png);
+.postsPage {
+background-image: url(../images/posts_mockup.png);
 background-repeat: no-repeat;
+background-position: center -10px;
 }
 
 a {
