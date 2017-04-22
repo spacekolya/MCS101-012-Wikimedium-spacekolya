@@ -9,6 +9,10 @@ body {
   min-width: 768px;
 }
 
+.landingPage {
+  background-color: #fcfcfc;
+}
+
 .landingPage.bg {
   background-image: url(../images/index_mockup.png);
   background-repeat: no-repeat;
@@ -29,5 +33,6 @@ a {
 @media all and (max-width: 910px) {
   .landingPage.bg {
     background-image: url(../images/index_mockup_ipad.png);
+  
   }
 }
