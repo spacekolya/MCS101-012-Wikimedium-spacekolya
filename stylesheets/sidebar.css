@@ -22,6 +22,18 @@
   font-weight: bold;
 }
 
+.sidebar {
+  min-height: 50vh;
+}
+
+@media
+all and (max-width: 1340px),
+all  and (max-device-width: 1366px;) and (orientation: landscape) {
+  .sidebar {
+    display: none;
+  }
+}
+
 .sidebar > ul * li {
   margin-left: 10px;
   color: rgba(0,0,0,0.4);
