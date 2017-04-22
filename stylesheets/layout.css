@@ -3,21 +3,21 @@
 }
 
 body {
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-font-family: 'PT Sans', sans-serif;
-min-width: 768px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'PT Sans', sans-serif;
+  min-width: 768px;
 }
 
-.postsPage {
-background-image: url(../images/posts_mockup.png);
-background-repeat: no-repeat;
-background-position: center -10px;
+.landingPage {
+  background-image: url(../images/index_mockup.png);
+  background-repeat: no-repeat;
+  background-position: center -10px;
 }
 
 a {
-color: inherit;
-text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 .share {

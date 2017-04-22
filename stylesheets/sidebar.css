@@ -14,7 +14,7 @@
 
 .sidebar li {
   margin-top: 12px;
-  line-height: 14px;
+  font-size: 14px;
   line-height: 15px;
 }
 
@@ -22,19 +22,16 @@
   font-weight: bold;
 }
 
-.sidebar {
-  min-height: 50vh;
+.sidebar > ul * li {
+  margin-left: 10px;
+  color: rgba(0,0,0,.4);
 }
+
 
 @media
 all and (max-width: 1340px),
-all  and (max-device-width: 1366px;) and (orientation: landscape) {
+all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .sidebar {
     display: none;
   }
-}
-
-.sidebar > ul * li {
-  margin-left: 10px;
-  color: rgba(0,0,0,0.4);
 }

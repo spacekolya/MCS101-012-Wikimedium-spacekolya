@@ -7,7 +7,8 @@
   background: white;
 }
 
-.postsPage .menubar{
+.postsPage .menubar,
+.landingPage .menubar {
   position: fixed;
   width: 100%;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
