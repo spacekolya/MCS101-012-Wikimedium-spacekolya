@@ -1,6 +1,5 @@
 .posts{
   width: 740px;
-  padding: 20px;
   margin: 0 auto;
 }
 
@@ -12,10 +11,26 @@
   b
 }
 
-.posts figure{
+.posts figure {
   width: 700px;
   height: 200px;
   background-image: url(../images/narkomfin.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.posts a + a>figure {
+  width: 700px;
+  height: 200px;
+  background-image: url(../images/centrosouz.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.posts a + a + a>figure {
+  width: 700px;
+  height: 200px;
+  background-image: url(../images/museum.jpg);
   background-size: cover;
   background-position: center;
 }
