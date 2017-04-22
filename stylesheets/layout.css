@@ -9,7 +9,7 @@ body {
   min-width: 768px;
 }
 
-.landingPage {
+.landingPage.bg {
   background-image: url(../images/index_mockup.png);
   background-repeat: no-repeat;
   background-position: center -10px;
@@ -24,4 +24,10 @@ a {
   position: fixed;
   right: 20px;
   bottom: 20px;
+}
+
+@media all and (max-width: 910px) {
+  .landingPage.bg {
+    background-image: url(../images/index_mockup_ipad.png);
+  }
 }
