@@ -32,7 +32,7 @@ a {
 
 @media all and (max-width: 910px) {
   .landingPage.bg {
-    background-image: url(../images/index_mockup_ipad.png);
-  
+    background-image: url(../images/index_mockup_ipad.png) ;
+
   }
 }

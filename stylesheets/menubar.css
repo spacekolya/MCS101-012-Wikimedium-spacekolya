@@ -15,6 +15,7 @@
 }
 
 .landingPage .menubar {
+  min-width: 768px;
   max-width: 1440px;
 }
 
